@@ -22,8 +22,11 @@ A React-based weather application that allows users to check the current weather
    ```
 4. Start the application:
    ```bash
-   npm start
+   npm run dev
    ```
+
+5. Open your browser and navigate to:
+   [http://localhost:3000](http://localhost:3000)
 
 ## Fun Fact
 Did you know? WeatherByCity can give you real-time weather updates so you’re always prepared—no more surprises!
