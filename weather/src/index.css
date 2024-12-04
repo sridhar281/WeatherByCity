@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Raleway:ital,wght@0,100..900;1,100..900&family=Vast+Shadow&display=swap');
+*{
+  margin: 0;
+  font-family: "Vast Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first{
+  min-height: 100vh;
+  display: grid;
+  background-color:lightblue;
+}

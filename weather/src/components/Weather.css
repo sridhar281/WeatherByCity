@@ -1,0 +1,129 @@
+
+.box {
+    place-self: center;
+    padding: 50px;
+    border-radius: 15px;
+    background-image: linear-gradient(45deg, #1E90FF, #000);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 850px; 
+    height: 1400px; 
+    max-width: 90%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s;
+}
+
+.box:hover {
+    transform: scale(1.02);
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+    gap: 45px;
+    align-items: center;
+}
+
+.search input {
+    height: 100px; 
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    width: 490px;
+    border: none;
+    padding-left: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+    transition: background 0.3s;
+}
+
+.search input:hover {
+    background: rgba(255, 255, 255, 1);
+}
+
+.search input::placeholder {
+    color: #c06868; 
+    opacity: 1; 
+    font-size: 40px; 
+}
+
+.search img {
+    height: 80px;
+    width: 80px; 
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.search img:hover {
+    transform: scale(1.1);
+}
+.weathr {
+    width: 210px;
+    height: 240px;
+    margin: 20px 0; 
+}
+.temp {
+    color: white;
+    font-size: 80px;
+    line-height: 1;
+    margin: 10px 0; 
+}
+
+.city {
+    color: white;
+    font-size: 40px; 
+    margin: 5px 0;
+    text-transform: uppercase; 
+}
+
+.weather-data {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 40px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.data, .data1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.data img, .data1 img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.data p, .data1 p {
+    font-size: 40px;
+    margin: 0;
+}
+
+.data span, .data1 span {
+    font-size: 30px;
+    color: #ee9191;
+    text-align: center;
+}
+
+.data1 {
+    margin-top: 30px;
+}
+
+.data1:last-child {
+    align-self: center;
+}
+
+.weather-box {
+    grid-column: span 2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
